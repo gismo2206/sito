@@ -75,6 +75,15 @@
       flex-direction: column;
       justify-content: space-around;
       height: 250px;
+      position: absolute;
+    }
+
+    .left-column {
+      left: -200px;  /* Distanza maggiore a sinistra */
+    }
+
+    .right-column {
+      right: -200px;  /* Distanza maggiore a destra */
     }
 
   </style>
@@ -89,12 +98,12 @@
 
   <!-- Contenitore dei bottoni disposti a sinistra e a destra -->
   <div class="buttons-container">
-    <div class="button-column">
+    <div class="button-column left-column">
       <a href="vita.html"><button>Vita di Italo Svevo</button></a>
       <a href="poetica.html"><button>Corrente di pensiero e poetica</button></a>
       <a href="opere.html"><button>Opere</button></a>
     </div>
-    <div class="button-column">
+    <div class="button-column right-column">
       <a href="coscienza.html"><button>La coscienza di Zeno</button></a>
       <a href="racconti.html"><button>I racconti</button></a>
       <a href="collegamenti.html"><button>Collegamenti interdisciplinari</button></a>
