@@ -10,13 +10,27 @@
       font-family: 'Open Sans', sans-serif;
       color: #4b2e2e;
       padding: 20px;
+      margin: 0;
     }
 
     h1 {
       font-size: 48px;
-      margin-top: 50px;
+      margin-top: 30px;
       color: #4b2e2e;
       text-shadow: 2px 2px #d2b48c;
+    }
+
+    .photo-container {
+      margin-top: 40px;
+      border: 8px solid #d2b48c;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .photo-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
 
     button {
@@ -36,18 +50,32 @@
       background-color: #8b4513;
       color: #fff;
     }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
   <h1>Italo Svevo</h1>
 
-  <a href="vita.html"><button>Vita di Italo Svevo</button></a>
-  <a href="poetica.html"><button>Corrente di pensiero e poetica</button></a>
-  <a href="opere.html"><button>Opere</button></a>
-  <a href="coscienza.html"><button>La coscienza di Zeno</button></a>
-  <a href="racconti.html"><button>I racconti</button></a>
-  <a href="collegamenti.html"><button>Collegamenti interdisciplinari</button></a>
+  <div class="photo-container">
+    <img src="foto.jpg" alt="Italo Svevo">
+  </div>
 
+  <div class="buttons">
+    <a href="vita.html"><button>Vita di Italo Svevo</button></a>
+    <a href="poetica.html"><button>Corrente di pensiero e poetica</button></a>
+    <a href="opere.html"><button>Opere</button></a>
+    <a href="coscienza.html"><button>La coscienza di Zeno</button></a>
+    <a href="racconti.html"><button>I racconti</button></a>
+    <a href="collegamenti.html"><button>Collegamenti interdisciplinari</button></a>
+  </div>
 </body>
 </html>
+
 
