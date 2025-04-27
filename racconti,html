@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>I racconti</title>
+  <style>
+    body { background-color: #f5f5dc; text-align: center; font-family: 'Open Sans', sans-serif; color: #4b2e2e; padding: 20px; }
+    h1 { font-size: 40px; margin-top: 50px; color: #4b2e2e; }
+    p { font-size: 20px; margin: 20px auto; max-width: 800px; }
+    a button { margin-top: 30px; background-color: #d2b48c; color: #4b2e2e; padding: 12px 20px; font-size: 20px; border: none; border-radius: 10px; cursor: pointer; }
+    button:hover { background-color: #8b4513; color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>I racconti</h1>
+  <p>Oltre ai romanzi, Svevo scrisse anche diversi racconti brevi, molti dei quali vennero pubblicati postumi. In questi racconti si ritrovano le stesse tematiche care all'autore: l'inettitudine, la riflessione interiore, il conflitto tra desiderio e realtà. I racconti offrono uno sguardo più immediato ma altrettanto profondo sulla crisi dell'uomo moderno. Tra i più noti ci sono "Una burla riuscita" e "Vino generoso".</p>
+
+  <a href="index.html"><button>Torna alla Home</button></a>
+</body>
+</html>
