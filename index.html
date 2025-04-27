@@ -23,7 +23,7 @@
       background-color: #d2b48c;
       color: #4b2e2e;
       padding: 15px 30px;
-      margin: 20px;
+      margin: 10px;
       font-size: 24px;
       border: none;
       border-radius: 10px;
@@ -46,6 +46,9 @@
       padding: 10px;
       border-radius: 15px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .image-container img {
@@ -54,10 +57,26 @@
       border-radius: 10px;
     }
 
-    /* Stile per il contenitore dei bottoni */
+    /* Layout per i bottoni a sinistra e destra */
     .buttons-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 800px;
       margin-top: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+
+    .button-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 250px;
+    }
+
   </style>
 </head>
 <body>
@@ -68,18 +87,21 @@
     <img src="foto.jpg" alt="Italo Svevo">
   </div>
 
-  <!-- Contenitore dei bottoni -->
+  <!-- Contenitore dei bottoni disposti a sinistra e a destra -->
   <div class="buttons-container">
-    <a href="vita.html"><button>Vita di Italo Svevo</button></a>
-    <a href="poetica.html"><button>Corrente di pensiero e poetica</button></a>
-    <a href="opere.html"><button>Opere</button></a>
-    <a href="coscienza.html"><button>La coscienza di Zeno</button></a>
-    <a href="racconti.html"><button>I racconti</button></a>
-    <a href="collegamenti.html"><button>Collegamenti interdisciplinari</button></a>
+    <div class="button-column">
+      <a href="vita.html"><button>Vita di Italo Svevo</button></a>
+      <a href="poetica.html"><button>Corrente di pensiero e poetica</button></a>
+      <a href="opere.html"><button>Opere</button></a>
+    </div>
+    <div class="button-column">
+      <a href="coscienza.html"><button>La coscienza di Zeno</button></a>
+      <a href="racconti.html"><button>I racconti</button></a>
+      <a href="collegamenti.html"><button>Collegamenti interdisciplinari</button></a>
+    </div>
   </div>
 
 </body>
 </html>
-
 
 
